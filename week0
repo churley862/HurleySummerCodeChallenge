@@ -1,0 +1,1 @@
+public class Test {    public static void main(String args[]) {        int x = 1;        while( x <= 100 ) {            if ((x % 2) == 0) {                System.out.print(x);                if((x%3)==0){                    System.out.print("fuzz");                }                x++;                System.out.print("\n");            }        }    }}
